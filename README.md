@@ -1,4 +1,6 @@
 # bet
-Friendly accountability
+## Friendly accountability
+### Challenge your friends, family, randos to bets
 
-## Challenge your friends, family, randos to bets
+
+AK and Neas collab 
