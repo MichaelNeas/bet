@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // test launching app from app delegate
-        view.backgroundColor = .yellow
+        view.backgroundColor = .green
     }
 
 

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3052E7BA22093609009F750D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E7B922093609009F750D /* AppDelegate.swift */; };
 		3052E7BC22093609009F750D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E7BB22093609009F750D /* ViewController.swift */; };
-		3052E7C222093609009F750D /* bet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3052E7C022093609009F750D /* bet.xcdatamodeld */; };
 		3052E7C42209360B009F750D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3052E7C32209360B009F750D /* Assets.xcassets */; };
 		3052E7C72209360B009F750D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3052E7C52209360B009F750D /* LaunchScreen.storyboard */; };
 		3052E7D22209360B009F750D /* betTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E7D12209360B009F750D /* betTests.swift */; };
@@ -37,7 +36,6 @@
 		3052E7B622093609009F750D /* bet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3052E7B922093609009F750D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3052E7BB22093609009F750D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3052E7C122093609009F750D /* bet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bet.xcdatamodel; sourceTree = "<group>"; };
 		3052E7C32209360B009F750D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3052E7C62209360B009F750D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3052E7C82209360B009F750D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				3052E7C32209360B009F750D /* Assets.xcassets */,
 				3052E7C52209360B009F750D /* LaunchScreen.storyboard */,
 				3052E7C82209360B009F750D /* Info.plist */,
-				3052E7C022093609009F750D /* bet.xcdatamodeld */,
 			);
 			path = bet;
 			sourceTree = "<group>";
@@ -257,7 +254,6 @@
 			files = (
 				3052E7BC22093609009F750D /* ViewController.swift in Sources */,
 				3052E7BA22093609009F750D /* AppDelegate.swift in Sources */,
-				3052E7C222093609009F750D /* bet.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,19 +568,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3052E7C022093609009F750D /* bet.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3052E7C122093609009F750D /* bet.xcdatamodel */,
-			);
-			currentVersion = 3052E7C122093609009F750D /* bet.xcdatamodel */;
-			path = bet.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3052E7AE22093609009F750D /* Project object */;
 }
